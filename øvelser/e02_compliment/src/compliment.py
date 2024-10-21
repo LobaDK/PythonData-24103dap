@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 
-def main():
-    # Enter you solution here
+def main() -> None:
+    country: str = input("What country are you from? ") or "N/A"
+    print(f"I have heard that {country} is a beautiful country.")
 
 
 if __name__ == "__main__":
