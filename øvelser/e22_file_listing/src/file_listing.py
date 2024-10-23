@@ -6,7 +6,7 @@ PATTERN = r"(\d+)\s+(\w+)\s+(\d+)\s+(\d{2}):(\d{2})\s+(.+)$"
 
 
 def file_listing(
-    filename="src/listing.txt",
+    filename="/home/lobadk/Documents/PythonData-24103dap/øvelser/e22_file_listing/src/listing.txt",
 ) -> list[tuple[int, str, int, int, int, str]]:
     with open(file=filename, mode="r") as read:
         return [
